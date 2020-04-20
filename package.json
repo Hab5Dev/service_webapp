@@ -1,0 +1,33 @@
+{
+  "name": "@hab5-services/boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for creating Hab5 Services",
+  "main": "src/service.ts",
+  "scripts": {
+    "service": "ts-node src/service.ts",
+    "check-types": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hab5Dev/service_boilerplate.git"
+  },
+  "author": "Hab5 Development Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hab5Dev/service_boilerplate/issues"
+  },
+  "homepage": "https://github.com/Hab5Dev/service_boilerplate#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "@types/node": "^13.13.1",
+    "@types/seneca": "^2.1.9",
+    "seneca": "^3.20.3",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  }
+}
